@@ -1,0 +1,9 @@
+use Harlin200510664;
+
+CREATE TABLE users(
+ID int AUTO_INCREMENT primary key,
+fname VARCHAR(100) NOT NULL,
+lname VARCHAR(100) NOT NULL,
+email VARCHAR(100) NOT NULL,
+pass varchar(100) NOT NULL
+);
